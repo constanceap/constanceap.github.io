@@ -1,0 +1,13 @@
+    .post-it {
+        background-color: #ffeb3b;
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        font-family: Arial, sans-serif;
+        margin: 24px; 
+        padding: 24px;
+        vertical-align: top;  
+    }
+    .pink {
+        background-color: #ff69b4;
+    }
