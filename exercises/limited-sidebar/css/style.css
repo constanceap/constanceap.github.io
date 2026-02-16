@@ -35,5 +35,17 @@ body {
     min-height: 100vh;
 }
 #sidebar + div {
-    flex: 1;
+    padding-right: 200px;
+    padding-left: 20px;
+}
+  .custom-underline {
+    display: inline-block; /* Makes the element wrap its content width */
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    padding-left: 20px; 
+    padding-right: 600px;
+  }
+  .maincontent {
+    width: 75%;
+    margin-left: 20px; 
 }
