@@ -6,3 +6,27 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+    .rainbow {
+        background: linear-gradient(to right, red, orange, green, blue, indigo, violet);
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+    .white {
+        background-color: white;
+        color: black;
+        padding: 5px;
+        text-align: center;
+    }
+    .red {
+        background-color: red;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    .black {
+        background-color: black;
+        color: white;
+        padding: 5px   ;
+        text-align: center;
+    }

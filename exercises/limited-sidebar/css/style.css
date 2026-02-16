@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.red {
+    color: red;
+}
+.black {
+    color: black;
+}
+.sidebar {
+    background-color: #333333;
+    color: white;
+    width: 500px;
+    min-height: 100vh;
+    padding: 24px;
+}
+.chapter {
+    font: bold 24px sans-serif;
+}
+.edit{
+    color: orange;
+    font-style: italic;
+}
+.both {
+    color: red;
+    font: italic 24px sans-serif;
+}
+.wrap{
+    display: flex;
+    min-height: 100vh;
+}
+#sidebar + div {
+    flex: 1;
+}
