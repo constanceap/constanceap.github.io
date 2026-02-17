@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#morning {
+    background-color: lightblue;
+    border: 2px solid #3498db;
+    margin: 10px;
+    padding: 10px;
+}
+#afternoon {
+    background-color: orange;
+    border: 2px solid #e67e22;
+    margin: 10px;
+    padding: 10px;
+}
+#evening {
+    background-color: lightcoral;
+    border: 2px solid #e74c3c;
+    margin: 10px;
+    padding: 10px;
+}
+.completed {
+    text-decoration: line-through;
+    color: black;
+}
+.important {
+    font-weight: bold;
+    color: red;
+}
+.completed + .important{
+    text-decoration: line-through;
+    color: red;
+    background-color: yellow;
+    padding-top: 1px;
+}
+.complete-button {
+    background-color: green;
+    display: inline-block;
+    color: white;
+    border:  1px solid white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
