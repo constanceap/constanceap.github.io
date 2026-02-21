@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+.zalando-sans-expanded{
+  font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.center-column {
+    background-color: pink;
+     max-width: 500px;
+     margin: 0px auto;
+}
+.image-container {
+  position: relative;
+  display: inline-block; /* Ensures the container only wraps the image width */
+
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute; /* Positions the text relative to the container */
+  top: 50%; /* Starts the top edge of the text at the middle of the container */
+  left: 50%; /* Starts the left edge of the text at the middle of the container */
+  transform: translate(-50%, -50%); /* Shifts the text element back by half its own width/height to center it precisely */
+  color: white;
+     font-size: 24px;
+     font-weight: bold;
+     text-align: center;
+        text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
