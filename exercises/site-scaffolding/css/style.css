@@ -29,11 +29,11 @@ nav ul li a {
     text-decoration: none;
 }
 .logo {
-    font-size:30px;
+    font-size: 30px;
     font-weight: bold;
     color: brown;
     margin: 20px;
-    margin-right:340px;
+    margin-right: 340px;
 }
 .button {
     background-color: brown;
